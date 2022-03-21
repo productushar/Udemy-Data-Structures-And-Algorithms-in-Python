@@ -1,5 +1,4 @@
 #Reversing 1D Array of integers
-#Linear time complexity using constant memory
 
 def reverse(nums):
     lowIndex = 0
