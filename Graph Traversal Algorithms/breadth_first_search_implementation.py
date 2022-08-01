@@ -18,6 +18,7 @@ def breadth_first_search(start_node):
         print(actual_node.name)
 
         for n in actual_node.adjacency_list:
+            
             if not n.visited:
                 n.visited = True
                 queue.append(n)
